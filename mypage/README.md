@@ -1,3 +1,10 @@
+1. React + ReactStrap 사용
+2. Code Review는 Gerrit으로 할 예정
+3. Commit 형식 지정하여 사용할 예정
+1) Title
+2) 설명
+3) 관련 기술 / 사이트 주소
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
