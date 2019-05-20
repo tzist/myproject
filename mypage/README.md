@@ -1,3 +1,5 @@
+2019-05-20
+
 1. React + ReactStrap 사용
 2. Code Review는 Gerrit으로 할 예정
 3. Commit 형식 지정하여 사용할 예정
