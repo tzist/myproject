@@ -14,6 +14,19 @@
 2) 설명
 3) 관련 기술 / 사이트 주소
 
+4. 참고
+(1) git 명령어
+- git init : 새로운 저장소 초기화하기
+- git clone <저장소 url> : 저장소 복제하기
+- git remote add <원격 저장소> <저장소 url> : 새로운 원격 저장소 추가하기
+- git pull <원격 저장소> : 원격 저장소에서 변경 사항을 가져와 현재 브랜치에 합치기
+- git pull : origin 저장소에서 변경 사항을 가져와 현재 브랜치에 합치기
+- git push <원격 저장소> <지역 브랜치>:<원격 브랜치> : 지역 브랜치를 원격 브랜치에 푸싱하기
+- git push <원격 저장소> <지역 브랜치> : 지역 브랜치를 동일한 이름의 원격 브랜치에 푸싱하기
+- git push <원격 저장소> <지역 브랜치> : 새로운 로컬 브랜치를 원격 저장소에 푸싱하기
+- git branch <branchname> : 새로운 지역 브랜치 만들기
+- gerrit 코드 리뷰를 위한 push : git push origin HEAD:refs/for/master
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
