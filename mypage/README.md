@@ -4,10 +4,15 @@
 2. Code Review는 Gerrit으로 할 예정
 3. Commit 형식 지정
 => commit.template을 사용하여 지정 : 커밋할 때 Git이 보여주는 커밋 메시지는 이 옵션에 설정한 템플릿 파일이다. 
+
 (1) 임의의 파일에 commit 형식 지정
+
 (2) git config --global commit.template (파일이름)
+
 (3) 이후 git commit 시 지정한 commit 형식이 자동으로 나타난다.
+
 (4) 지정 해제 :  git config --global --unset-all commit.template
+
 (5) 확인 : git config --get commit.template
 
 1) Title
