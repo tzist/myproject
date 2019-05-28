@@ -1,8 +1,15 @@
-2019-05-20
+﻿1. React + ReactStrap 사용
 
-1. React + ReactStrap 사용
 2. Code Review는 Gerrit으로 할 예정
+
 3. Commit 형식 지정
+
+:Title: ( Title )
+
+:Detailed Notes: ( 설명 )
+
+:Reference: ( 관련 기술 / 사이트 주소 )
+
 => commit.template을 사용하여 지정 : 커밋할 때 Git이 보여주는 커밋 메시지는 이 옵션에 설정한 템플릿 파일이다. 
 
 (1) 임의의 파일에 commit 형식 지정
@@ -15,9 +22,6 @@
 
 (5) 확인 : git config --get commit.template
 
-1) Title
-2) 설명
-3) 관련 기술 / 사이트 주소
 
 4. 참고
 (1) git 명령어

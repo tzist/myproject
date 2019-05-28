@@ -1,7 +1,5 @@
-subject line
+:Title:
 
-what happened
+:Detailed Notes:
 
-[ticket: X]
-
-=> Please add new template!!!
+:Reference:
