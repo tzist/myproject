@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Example from './js/example';
+import Carousel1 from './js/Carousel1';
 
 function App() {
   return (
     <div>
-      <Example></Example>
+      <Carousel1></Carousel1>
     </div>
   );
 }

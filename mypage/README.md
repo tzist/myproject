@@ -1,8 +1,16 @@
-﻿1. React + ReactStrap 사용
+﻿1. React + ReactStrap + scss 사용
 
 2. Code Review는 Gerrit으로 할 예정
 
 3. Commit 형식 지정
+
+설치 방법 :
+1) 프로젝트 다운로드
+2) package.json이 있는 폴더에서 npm install 또는 yarn install
+3) npm 모듈 설치 : npm intall (-g)
+4) npm 모듈 제거 : npm uninstall
+5) yarn 모듈 설치 : yarn install
+6) node 모듈 확인 : npm ls (-g)
 
 :Title: ( Title )
 
@@ -35,6 +43,14 @@
 - git push <원격 저장소> <지역 브랜치> : 새로운 로컬 브랜치를 원격 저장소에 푸싱하기
 - git branch <branchname> : 새로운 지역 브랜치 만들기
 - gerrit 코드 리뷰를 위한 push : git push origin HEAD:refs/for/master
+
+2019-05-30
+1) npm install, yarn install이 안 될 때는
+> npm cache clean, yarn cache clean 고고
+
+2) 스타일을 인라인으로 지정할 때, 화면을 표시하는 return 부분에 <style></style> 태그 넣기
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
