@@ -4,6 +4,8 @@
 
 3. Commit 형식 지정
 
+* 새로운 폴더 생성 시 track에 올립시다.
+
 설치 방법 :
 1) 프로젝트 다운로드
 2) package.json이 있는 폴더에서 npm install 또는 yarn install
