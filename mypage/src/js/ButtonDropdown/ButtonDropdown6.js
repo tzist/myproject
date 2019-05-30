@@ -5,13 +5,13 @@ export default class ButtonDropdown6 extends React.Component {
     constructor(props) {
         super(props);
     
-        this.toggle = this.toggle.bind(this);
+        //this.toggle = this.toggle.bind(this);
         this.state = {
           dropdownOpen: false
         };
       }
 
-      toggle() {
+      toggle = () => {
         this.setState({
           dropdownOpen: !this.state.dropdownOpen
         });
