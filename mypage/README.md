@@ -52,7 +52,10 @@
 
 2) 스타일을 인라인으로 지정할 때, 화면을 표시하는 return 부분에 <style></style> 태그 넣기
 
-
+3) react의 component 종류는 3가지가 있다.
+    a) controlled (no internal state)
+    b) uncontrolled (internal state)
+    c) mixed (uncontrolled by default, unless some props are passed to make it controlled)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
