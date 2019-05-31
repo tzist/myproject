@@ -7,7 +7,7 @@ import Breadcrumb2 from './js/Breadcrumb/Breadcrumb2';
 import ButtonDropdown6 from './js/ButtonDropdown/ButtonDropdown6';
 import ButtonGroup2 from './js/ButtonGroup/ButtonGroup2';
 import Button5 from './js/Button/Button5';
-import Card1 from './js/Card/Card1';
+import Card8 from './js/Card/Card8';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <ButtonDropdown6></ButtonDropdown6>
       <ButtonGroup2></ButtonGroup2>
       <Button5></Button5>
-      <Card1></Card1>
+      <Card8></Card8>
     </div>
   );
 }

@@ -1,4 +1,6 @@
-﻿1. React + ReactStrap + scss 사용   
+﻿1. React + ReactStrap + scss 사용 
+   + express + (DB)
+   * 이외 jade, babel도 공부해보기.  
 
 2. Code Review는 Gerrit으로 할 예정
 
