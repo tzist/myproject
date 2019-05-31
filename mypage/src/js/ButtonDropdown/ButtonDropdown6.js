@@ -1,5 +1,5 @@
 import React from 'react';
-import { UncontrolledButtonDropdown, DropdownMenu, DropdownItem, DropdownToggle, ButtonDropdown } from 'reactstrap';
+import { DropdownMenu, DropdownItem, DropdownToggle, ButtonDropdown } from 'reactstrap';
 
 export default class ButtonDropdown6 extends React.Component {
     constructor(props) {

@@ -82,6 +82,7 @@ class Carousel1 extends Component {
 
     return (
       <Carousel
+        interval="10000"
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}

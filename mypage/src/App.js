@@ -6,6 +6,7 @@ import Badge3 from './js/Badge/Badge3';
 import Breadcrumb2 from './js/Breadcrumb/Breadcrumb2';
 import ButtonDropdown6 from './js/ButtonDropdown/ButtonDropdown6';
 import ButtonGroup2 from './js/ButtonGroup/ButtonGroup2';
+import Button5 from './js/Button/Button5';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Breadcrumb2></Breadcrumb2>
       <ButtonDropdown6></ButtonDropdown6>
       <ButtonGroup2></ButtonGroup2>
+      <Button5></Button5>
     </div>
   );
 }
