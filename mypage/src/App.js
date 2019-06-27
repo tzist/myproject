@@ -9,6 +9,7 @@ import ButtonGroup2 from './js/ButtonGroup/ButtonGroup2';
 import Button5 from './js/Button/Button5';
 import Card8 from './js/Card/Card8';
 import Collapse2 from './js/Collapse/Collapse2';
+import Dropdown8 from './js/Dropdown/Dropdown8';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Button5></Button5>
       <Card8></Card8>
       <Collapse2></Collapse2>
+      <Dropdown8></Dropdown8>
     </div>
   );
 }
