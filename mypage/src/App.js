@@ -11,6 +11,7 @@ import Card8 from './js/Card/Card8';
 import Collapse2 from './js/Collapse/Collapse2';
 import Dropdown8 from './js/Dropdown/Dropdown8';
 import Fade1 from './js/Fade/Fade1';
+import Form3 from './js/Form/Form3';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Collapse2></Collapse2>
       <Dropdown8></Dropdown8>
       <Fade1></Fade1>
+      <Form3></Form3>
     </div>
   );
 }
