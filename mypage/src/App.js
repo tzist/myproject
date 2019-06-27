@@ -10,6 +10,7 @@ import Button5 from './js/Button/Button5';
 import Card8 from './js/Card/Card8';
 import Collapse2 from './js/Collapse/Collapse2';
 import Dropdown8 from './js/Dropdown/Dropdown8';
+import Fade1 from './js/Fade/Fade1';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Card8></Card8>
       <Collapse2></Collapse2>
       <Dropdown8></Dropdown8>
+      <Fade1></Fade1>
     </div>
   );
 }
