@@ -3,10 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 import MyComponent from './MyComponent';
+import EventPractice from './EventPractice';
 
 function App() {
   return (
     <div className="App">
+      <EventPractice />
       <MyComponent 
         age={28}
       />
