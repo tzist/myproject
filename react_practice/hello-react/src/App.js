@@ -5,10 +5,12 @@ import ValidationSample from './ValidationSample';
 import MyComponent from './MyComponent';
 import EventPractice from './EventPractice';
 import ScrollBox from './ScrollBox';
+import IterationSample from './IterationSample';
 
 function App() {
   return (
     <div className="App">
+      <IterationSample />
       <ScrollBox />
       <ValidationSample />
       <EventPractice />
