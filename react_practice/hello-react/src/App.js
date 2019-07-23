@@ -1,13 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import ValidationSample from './ValidationSample';
 import MyComponent from './MyComponent';
 import EventPractice from './EventPractice';
+import ScrollBox from './ScrollBox';
 
 function App() {
   return (
     <div className="App">
+      <ScrollBox />
+      <ValidationSample />
       <EventPractice />
       <MyComponent 
         age={28}
