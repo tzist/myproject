@@ -7,6 +7,7 @@ import EventPractice from './EventPractice';
 import ScrollBox from './ScrollBox';
 import IterationSample from './IterationSample';
 import LifeCycleSample from './LifeCycleSample';
+import Hello from './HelloFunctionComponent';
 
 function getRandomColor() {
   return '#' + Math.floor(Math.random() * 16777215).toString(16);
@@ -28,6 +29,7 @@ class App extends Component {
       <div>
         <button onClick={this.handleClick}>랜덤 색상</button>
         <LifeCycleSample color={this.state.color}/>
+        <Hello name="Hooram"/>
       </div>
     );
   }
