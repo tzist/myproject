@@ -18,5 +18,6 @@ module.exports = {
     "eol-last": 0,
     "no-console": 0,
     "linebreak-style": 0,
+    "import/no-unresolved": 0,
   },
 };
