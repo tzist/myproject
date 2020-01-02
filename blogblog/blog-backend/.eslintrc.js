@@ -6,6 +6,20 @@ module.exports = {
   extends: [
     'airbnb',
   ],
+  settings: {
+    /*
+    'import/resolver': {
+      node: { 
+        moduleDirectory: ['node_modules', 'src']
+      }
+    }
+    */
+    'import/resolver': {
+      node: {
+        paths: [path.resolve('./src')]
+      }
+    }
+  },
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',

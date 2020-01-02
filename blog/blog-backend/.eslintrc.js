@@ -2,6 +2,11 @@ module.exports = {
   env: {
     es6: true,
   },
+  "settings": {
+    "import/resolver": {
+      node: { paths: [path.resolve('./src')] }
+    },
+  },
   extends: [
     'airbnb-base',
   ],
